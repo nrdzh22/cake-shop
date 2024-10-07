@@ -17,7 +17,8 @@ This project is a fully functional e-commerce website for a cake shop, built usi
 - **Backend**: Java, Spring Boot, MySQL
 - **Frontend**: Thymeleaf, HTML, CSS, JavaScript
 - **Development Tools**: IntelliJ IDEA, MySQL Workbench
-  ## Version
+
+- ## Version
 - Java 17
 - MySQL 8.0
 - Maven 3.6
