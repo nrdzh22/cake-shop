@@ -1,0 +1,106 @@
+<!-- Login HTML -->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dessertify-Best Dessert Ever</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link th:href="@{/img/logo.png}" rel="icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+        .login-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .login-title {
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            color: #FD5DA8;
+        }
+        .form-control {
+            border-radius: 0.25rem;
+        }
+        .btn-primary {
+            background-color: #FD5DA8;
+            border-color: #FD5DA8;
+            border-radius: 0.25rem;
+        }
+        .btn-primary:hover {
+            background-color: #e14b92;
+            border-color: #c13d7b;
+        }
+        .register-link {
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .register-link a {
+            color: #FD5DA8;
+            text-decoration: none;
+        }
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+        .logout-message {
+            margin-top: 1rem;
+            color: #970f0f;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Login Form -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 login-container">
+                <h1 class="login-title text-center">Login</h1>
+                <form th:action="@{/login}" method="post">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" class="form-control" required="required"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" class="form-control" required="required"/>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </div>
+                </form>
+
+                <!-- Display logout message -->
+                <div th:if="${param.logout}" class="logout-message text-center">
+                    <p>You have been logged out.</p>
+                </div>
+
+                <!-- Register link -->
+                <div class="register-link text-center">
+                    <p>Don't have an account? <a th:href="@{/register}">Register here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
