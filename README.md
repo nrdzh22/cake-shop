@@ -28,31 +28,31 @@ This project is a fully functional e-commerce website for a cake shop, built usi
 Here are some screenshots that showcase the key pages of the Cake Shop E-Commerce Website:
 
 - **Index Page**: Overview of the cake shop, featuring product categories and promotions.  
-  ![Index](screenshot/index.png)
+  ![Index](screenshot/Index.png)
 
 - **Register Page**: A form for users to sign up and create an account.  
-  ![Register](screenshot/register.png)
+  ![Register](screenshot/Register.png)
 
 - **Login Page**: The login interface where users can enter their credentials.  
-  ![Login](screenshot/login.png)
+  ![Login](screenshot/Login.png)
 
 - **Home Page**: Main product display page, showing cakes with details like name, description, and price.  
-  ![Home](screenshot/home.png)
+  ![Home](screenshot/Home.png)
 
 - **Reviews Page**: Customers can view and add reviews about the cakes they’ve purchased.  
-  ![Reviews](screenshot/reviews.png)
+  ![Reviews](screenshot/Reviews.png)
 
 - **Product Page**: Detailed information about a selected cake, including customer reviews.  
-  ![Product](screenshot/product.png)
+  ![Product](screenshot/Product.png)
 
 - **Cart Page**: Users can view the items in their shopping cart, update quantities, and proceed to checkout.  
   ![Cart](screenshot/Cart.PNG)
 
 - **Checkout Page**: Users can fill out billing details, view selected items, and place an order.  
-  ![Checkout](screenshot/checkout.png)
+  ![Checkout](screenshot/Checkout.png)
 
 - **Receipt Page**: Order summary page showing purchase details after a successful transaction.  
-  ![Receipt](screenshot/receipt.png)
+  ![Receipt](screenshot/Receipt.png)
 
 
 
