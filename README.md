@@ -4,6 +4,8 @@
 
 This project is a fully functional e-commerce website for a cake shop, built using **Java** with **Spring Boot** for the backend and **Thymeleaf** for the frontend. The application allows users to browse various cake products, add them to a shopping cart, and proceed to checkout. It also includes features for customer reviews and order management, making it a comprehensive online shopping experience.
 
+---
+
 ## 🚀 Features
 
 ### 🛍️ Product Display
@@ -25,6 +27,8 @@ This project is a fully functional e-commerce website for a cake shop, built usi
 ### 🌟 Customer Reviews
 - View **testimonials** from past customers for each cake product.
 - Helps users make informed decisions based on other customers' experiences.
+
+---
   
 ## 🛠️ Technologies Used
 
@@ -32,11 +36,16 @@ This project is a fully functional e-commerce website for a cake shop, built usi
 - **Frontend**: Thymeleaf, HTML, CSS, JavaScript
 - **Development Tools**: IntelliJ IDEA, MySQL Workbench
 
+---
+
 ## 📦 Version
 - Java 17
 - MySQL 8.0
 - Maven 3.6
 - Spring Boot 3.3.2
+
+---
+  
 ## 📸 Screenshots
 
 Here are some screenshots that showcase the key pages of the Cake Shop E-Commerce Website:
