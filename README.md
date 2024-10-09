@@ -50,7 +50,7 @@ This project is an e-commerce website for a cake shop, built using **Java** with
 
 Here are some screenshots that showcase the key pages of the Cake Shop E-Commerce Website:
 
-- **📸Index Page**: Overview of the cake shop, featuring product categories and reviews.  
+- **🔖Index Page**: Overview of the cake shop, featuring product categories and reviews.  
   ![Index](screenshot/Index.PNG)
 
 - **📝Register Page**: A form for users to sign up and create an account.  
