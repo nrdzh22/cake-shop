@@ -9,7 +9,7 @@ This project is an e-commerce website for a cake shop, built using **Java** with
 ## 🚀 Features
 
 ### 🛍️ Product Display
-- View available cakes with details such as **name**, **description**, **price**, and **image**.
+- View available cakes with details such as **name**, **description**, **price** and **image**.
 
 ### 🛒 Shopping Cart
 - Add cakes to the shopping cart with the ability to update quantities or remove items.
