@@ -10,11 +10,10 @@ This project is an e-commerce website for a cake shop, built using **Java** with
 
 ### 🛍️ Product Display
 - View available cakes with details such as **name**, **description**, **price**, and **image**.
-- Users can **filter** and **search** through various categories of cakes.
 
 ### 🛒 Shopping Cart
 - Add cakes to the shopping cart with the ability to update quantities or remove items.
-- Cart contents are persisted even if the user leaves the site or logs out.
+- Cart contents are persisted even if the user leaves the site. 
 
 ### 💳 Checkout Process
 - Fill out **billing details** and review selected items before placing an order.
@@ -22,10 +21,9 @@ This project is an e-commerce website for a cake shop, built using **Java** with
 
 ### 📦 Order Management
 - Orders are stored in the database, allowing users to view past purchases.
-- Ensures that cart data is retained even post-checkout for tracking purposes.
 
 ### 🌟 Customer Reviews
-- View **testimonials** from past customers for each cake product.
+- View **testimonials** from past customers.
 - Helps users make informed decisions based on other customers' experiences.
 
 ---
@@ -47,8 +45,6 @@ This project is an e-commerce website for a cake shop, built using **Java** with
 ---
   
 ## 📸 Screenshots
-
-Here are some screenshots that showcase the key pages of the Cake Shop E-Commerce Website:
 
 - **🔖Index Page**: Overview of the cake shop, featuring product categories and reviews.  
   ![Index](screenshot/Index.PNG)
